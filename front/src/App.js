@@ -1,17 +1,14 @@
 import React from "react";
 import "./App.css";
-import Button from "@material-ui/core/Button";
+import Container from "@material-ui/core/Container";
 
 function App() {
   return (
     <div className="App">
-      <Button
-        variant="contained"
-        color="primary"
-        href="http://lamp.scottzockoll.com/"
-      >
-        Go to scott's website it's better than mine at the moment.
-      </Button>
+      <Container>
+        <h1>Nicolas Lloyd</h1>
+        <h4>Asipiring Web Developer</h4>
+      </Container>
     </div>
   );
 }

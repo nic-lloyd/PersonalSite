@@ -1,0 +1,8 @@
+.content {
+    margin: 25%;
+    height: 100%;
+}
+
+.content * {
+    text-align: center;
+}
