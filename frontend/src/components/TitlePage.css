@@ -1,8 +1,14 @@
 .content {
-    margin: 25%;
     height: 100%;
+    display: block;
+    vertical-align: middle;
+  
 }
 
 .content * {
+    text-align: center;
+}
+
+.center{
     text-align: center;
 }
